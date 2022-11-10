@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-image:url(pexels-pixabay-47367.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.navBar{
+    padding:1em;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    border: 2px double white;
+}
+.index{
+    color:white;
+    text-decoration:none;
+    border: 2px solid grey;
+    padding:10px;
+    
+}
+.about{
+    color:white;
+    text-decoration:none;
+    border: 2px solid grey;
+    padding:10px;
+}
+.more{
+    color:white;
+    text-decoration:none;
+    border: 2px solid grey;
+    padding:10px;
+}
+header{
+    color:lightyellow;
+    text-align:center;
+    padding:1.5em;
+    font-size:2em;
+    border:5px double darkslategrey;
+    text-shadow: 2px 2px darkslategrey;
+}
+h3{
+    color:lightyellow;
+    text-align:center;
+    font-size:1.3em;
+    border:2px solid darkslategrey;
+    padding:1em;
+    text-shadow: 2px 2px darkslategrey;
+}
