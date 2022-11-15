@@ -4,7 +4,7 @@
     
 }
 body{
-    background-image:url(pexels-pixabay-47367.jpg);
+    background-image:url(pexels-nicole-avagliano-2706654.jpg);
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -13,23 +13,22 @@ body{
     display:flex;
     flex-flow: row wrap;
     justify-content:space-around;
-    border: 2px double white;
 }
 .index{
-    color:white;
+    color:lightyellow;
     text-decoration:none;
     border: 2px solid grey;
     padding:10px;
     
 }
 .about{
-    color:white;
+    color:lightyellow;
     text-decoration:none;
     border: 2px solid grey;
     padding:10px;
 }
 .more{
-    color:white;
+    color:lightyellow;
     text-decoration:none;
     border: 2px solid grey;
     padding:10px;
@@ -39,20 +38,18 @@ header{
     text-align:center;
     padding:1.5em;
     font-size:2em;
-    border:5px double darkslategrey;
     text-shadow: 2px 2px darkslategrey;
 }
 h3{
     color:lightyellow;
     text-align:center;
     font-size:1.3em;
-    border:2px solid darkslategrey;
     padding:1em;
     text-shadow: 2px 2px darkslategrey;
 }
 .info{
-    color:white;
-    border: 2px double darkslategrey;
+    color:lightyellow;
+    text-align:center;
     width:fit-content;
     display:flex;
     flex-flow: row nowrap;
@@ -60,30 +57,45 @@ h3{
     justify-content:space-between;
 }
 .how{
-    margin-top:0px;
-    color:white;
-    border: 2px double darkslategrey;
+    margin:0px;
+    color:lightyellow;
     width:fit-content;
     display:flex;
     flex-flow: column nowrap;
-    align-items:center;
-    justify-content:center;  
+    align-items:start;
+    justify-content:center;
+    padding:2%;
 }
 .why{
-    margin-top:0px;
-    color:white;
-    border: 2px double darkslategrey;
+    margin:0px;
+    color:lightyellow;
     width:fit-content;
     display:flex;
     flex-flow: column nowrap;
-    align-items:center;
-    justify-content:center;    
+    align-items:start;
+    justify-content:center; 
+    padding:2%;
+   
+}
+.where{
+    margin:0px;
+    color:lightyellow;
+    width:fit-content;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:start;
+    justify-content:center;
+    padding:2%;
 }
 img{
-    width:450px;
-    border: 1px solid darkslategrey;
+    width:400px;
+    border: 1px solid #6f23dc;
+}
+.image{
+    align-self:center;
 }
 p{
-    width:450px;
+    color:lightyellow;
+    width:400px;
     text-align:center;
 }
