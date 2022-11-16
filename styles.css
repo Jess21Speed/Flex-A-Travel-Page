@@ -13,11 +13,8 @@ body{
 .navBar{
     padding:1em;
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content:space-around;
-}
-.index:hover{
-    color:#6f23dc;
 }
 .index{
     color:lightyellow;
@@ -25,6 +22,9 @@ body{
     border: 2px solid grey;
     padding:10px;
     
+}
+.index:hover{
+    color:#6f23dc;
 }
 .about{
     color:lightyellow;
@@ -114,4 +114,30 @@ footer{
 }
 footer p{
     text-align:left;
+}
+@media screen and (max-width:600px){
+.info{
+    display:flex;
+    flex-flow:row wrap;
+}
+}
+@media screen and (max-width:300px){
+    header{
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:center;
+    }
+    header h1{
+        font-size:larger;
+        text-align:center;
+        padding: 5px;
+        border: 2px solid #6f23dc;
+        align-self:center;
+    }
+    header h2{
+        text-align:center;
+        padding: 5px;
+        border: 2px solid #6f23dc;
+        align-self:center; 
+    }
 }
